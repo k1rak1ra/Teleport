@@ -1,0 +1,32 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+*.zip
+*.jar
+Desktop/out/artifacts/Desktop_jar/FEMBOY
+Server/out/artifacts/FEMBOY_server_jar/FEMBOY_server
+*.h5
+*.tflite
+META-INF/
+Desktop/target/
+Server/target/
+
+mobile/android/app/google-services.json
+mobile/ios/Runner/GoogleService-Info.plist
+
+# Project exclude paths
+/out/
