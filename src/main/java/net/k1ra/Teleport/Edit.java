@@ -94,7 +94,7 @@ public class Edit {
                             img != null,
                             exit.isSelected(),
                             "#" + Integer.toHexString(color.getValue().hashCode())));
-                    if (!i.image) {
+                    if (!i.image && img != null) {
                         Utils.copy_image(img, i.id);
                     }
                 }

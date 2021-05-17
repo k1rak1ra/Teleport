@@ -11,8 +11,6 @@ import java.nio.file.Paths;
 
 public class Main extends Application {
 
-    static String version = "0.0.1 - BETA";
-
     @Override
     public void start(Stage primary_stage) throws Exception{
         //check for data/folder and create if does not exit
